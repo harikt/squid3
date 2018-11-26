@@ -1,9 +1,11 @@
 # Xiaomi
 Block xiaomi tracking you
 
+> Assuimg you are root user oe executing via sudo
+
 ```
-sudo apt-get update
-sudo apt-get install squid3
+apt-get update
+apt-get install squid3
 cd /etc/squid
 wget https://raw.githubusercontent.com/harikt/xiaomi/master/blacklist.acl
 wget https://raw.githubusercontent.com/harikt/xiaomi/master/squid.conf
@@ -12,8 +14,8 @@ wget https://raw.githubusercontent.com/harikt/xiaomi/master/squid.conf
 Start / Restart when ever you made any changes.
 
 ```
-sudo systemctl start squid
-sudo systemctl restart squid
+systemctl start squid
+systemctl restart squid
 ```
 
 ## References 
