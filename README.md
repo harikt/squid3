@@ -24,10 +24,10 @@ systemctl restart squid
 2. Sim cards and mobile networks
 3. Provider
 4. Access point names
-5 a. Proxy => use your IP address
-5 b. Port  => The one you have given to squid
-5 c. Username => The one you created via `htpasswd -c /etc/squid3/passwd <username>`
-5 d. Password => The password given for the above command
+6. Proxy => use your IP address
+7. Port  => The one you have given to squid
+8. Username => The one you created via `htpasswd -c /etc/squid3/passwd <username>`
+9. Password => The password given for the above command
 
 ## Configuration for Wifi
 
