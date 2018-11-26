@@ -18,6 +18,28 @@ systemctl start squid
 systemctl restart squid
 ```
 
+## Configuration for Mobile Netwrorks
+
+1. Settings
+2. Sim cards and mobile networks
+3. Provider
+4. Access point names
+5 a. Proxy => use your IP address
+5 b. Port  => The one you have given to squid
+5 c. Username => The one you created via `htpasswd -c /etc/squid3/passwd <username>`
+5 d. Password => The password given for the above command
+
+## Configuration for Wifi
+
+1. Settings
+2. Wifi
+3. Proxy
+4. Manual
+5. Set IP address of the server
+6. Port number
+
+> If you are using browser it will prompt for username / password. Provide the one you have created via htpasswd command.
+
 ## References 
 
 1. https://github.com/hidden-refuge/spi
