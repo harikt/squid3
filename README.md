@@ -44,3 +44,5 @@ systemctl restart squid
 
 1. https://github.com/hidden-refuge/spi
 2. https://www.configserverfirewall.com/ubuntu-linux/install-squid-ubuntu-server/
+
+> It looks this is not working as expected :-( . We need more rules.
